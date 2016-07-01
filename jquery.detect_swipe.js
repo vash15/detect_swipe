@@ -18,7 +18,7 @@
  }(function($) {
 
   $.detectSwipe = {
-    version: '2.1.2',
+    version: '2.1.3',
     enabled: 'ontouchstart' in document.documentElement,
     preventDefault: true,
     threshold: (window.devicePixelRatio||1) >= 2 ? 10 : 20,
